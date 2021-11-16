@@ -1361,6 +1361,7 @@ footer ul.contact-info li {
 }
 
 .contact-information .contact-item {
+	margin-bottom: 30px;
 	padding: 60px 20px;
 	background-color: #F6F0E2;
 	border-radius: 20px;
