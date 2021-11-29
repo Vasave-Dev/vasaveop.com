@@ -79,7 +79,7 @@ a.filled-button {
 }
 
 .btn a.filled-button {
-	margin: 10px 0px;
+	margin: 10px auto;
 }
 
 a.filled-button:hover {
@@ -619,6 +619,11 @@ ul.slick-dots {
 	border-radius: 20px;
 	width: 100%;
 	overflow: hidden;
+	transition: ease 0.2s;
+}
+
+.service-item img.link:hover {
+	transform: scale(1.05);
 }
 
 .service-item .down-content {

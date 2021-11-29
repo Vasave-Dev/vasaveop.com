@@ -1,4 +1,4 @@
-/* Main */
+/* Heading */
 
 .member-review {
   text-align: center;
@@ -24,6 +24,8 @@
   letter-spacing: 1px;
 }
 
+/* Main */
+
 .slider {
 	width: 100%;
 }
@@ -37,7 +39,7 @@
 	align-items: center;
 	justify-content: center;
 	position: relative;
-	min-height: 358px;
+	min-height: 400px;
 	perspective: 1000px;
 	overflow: hidden;
 }
@@ -53,6 +55,7 @@
 	transition: transform 0.4s;
   transform-style: preserve-3d;
 	-webkit-transform-style: preserve-3d;
+	box-shadow: 12px 0 15px -4px rgba(0, 0, 0, 0.1), -12px 0 8px -4px rgba(0, 0, 0, 0.1), 0 9px 0px 0px white;
 	user-select: none;
 	cursor: pointer;
 }
