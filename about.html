@@ -37,6 +37,7 @@
     <link rel="stylesheet" href="/assets/css/fontawesome.css">
     <link rel="stylesheet" href="/assets/css/owl.css">
     <link rel="stylesheet" href="/assets/css/flex-slider.css">
+    <link rel="stylesheet" href="/assets/css/carousel.css">
 
     <!-- FONTAWESOME SCRIPT -->
     <script src="https://kit.fontawesome.com/4b22c292e3.js" crossorigin="anonymous"></script>
@@ -288,65 +289,50 @@
     <!-- END SECTION -->
 
     <!-- START SECTION -->
-    <a name="testimonials"></a>
+    <div class="member-review">
+      <div class="review-heading">
+        <span>testimonials from our employees undergoing training</span>
+        <h2>What our Members say About Us</h2>
+      </div>
+    </div>
     <div class="testimonials">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="section-heading">
-              <span>testimonials from our employees undergoing training</span>
-              <h2>What our Members say About Us</h2>
-            </div>
-          </div>
-          <div class="col-md-12">
-            <div class="owl-testimonials owl-carousel">
-              
-              <!-- START TESTIMONIAL -->
-              <div class="testimonial-item">
-                <div class="inner-content">
-                  <img src="/assets/images/rushil_member.png" alt="">
-                  <h4>Rushil Patel</h4>
-                  <span>Software Development L3 Apprentice</span>
-                  <p>"Vasave made it possible for me to move forward in the unconventional path of an apprenticeship during the extraordinary times of 2020 and has provided me with real life experience of remote learning and working simultaneously that will set the foundation for my career in the future."</p>
-                </div>
-              </div>
-              <!-- END TESTIMONIAL -->
-              
-              <!-- START TESTIMONIAL -->
-              <div class="testimonial-item">
-                <div class="inner-content">
-                  <img src="/assets/images/sergio_member.png" alt="">
-                  <h4>Sergio Garcia</h4>
-                  <span>Software Development L3 Apprentice</span>
-                  <p>"My journey at Vasave has created endless opportunities for me and has allowed me the possibility to not only develop my skills in the field I have chosen but also to network out to other workers in this field through social platforms, making my face and work known."<br /><br /></p>
-                </div>
-              </div>
-              <!-- END TESTIMONIAL -->
-
-              <!-- START TESTIMONIAL -->
-              <div class="testimonial-item">
-                <div class="inner-content">
-                  <img src="/assets/images/eval_member.png" alt="">
-                  <h4>Eval Thomson</h4>
-                  <span>Cyber and Infrastruture L7 Apprentice</span>
-                  <p>“From day one, I was given challenges that help me adapt and provide proper security information and materials for the company. The training that was provided was vital for me to understand the current work environment and carry topics that help me hone my work and my effort within Network and Security.”</p>
-                </div>
-              </div>
-              <!-- END TESTIMONIAL -->
-
-              <!-- START TESTIMONIAL -->
-              <div class="testimonial-item">
-                <div class="inner-content">
-                  <img src="/assets/images/deni_member.png" alt="">
-                  <h4>Deni Panev</h4>
-                  <span>Infrastructure/Cyber Engineer L4 Apprentice</span>
-                  <p>"My experience with Vasave was awesome. It started with a traineeship period, through which I learned a lot about cyber security and networking. The training was based on learning courses and online meetings, where specialists shared their knowledge and experiences."<br /><br /></p>
-                </div>
-              </div>
-              <!-- END TESTIMONIAL -->
-
-            </div>
-          </div>
+      <div class="slider">
+        <input type="radio" name="testimonial" id="t-1" checked>
+        <input type="radio" name="testimonial" id="t-2">
+        <input type="radio" name="testimonial" id="t-3">
+        <input type="radio" name="testimonial" id="t-4">
+        <div class="testimonials">
+          <label class="item" for="t-1">
+            <img src="/assets/images/sergio_member.png" alt="Vasave Overseas - Member: Sergio">
+            <h4>Sergio Garcia Gallego</h4>
+            <span>Software Development Technician L3</span>
+            <p>"My journey at Vasave has created endless opportunities for me and has allowed me the possibility to not only develop my skills in the field I have chosen but also to network out to other workers in this field through social platforms, making my face and work known."</p>
+          </label>
+          <label class="item" for="t-2">
+            <img src="/assets/images/rushil_member.png" alt="picture">
+            <h4>Rushil Patel</h4>
+            <span>Software Development Technician L3</span>
+            <p>"Vasave made it possible for me to move forward in the unconventional path of an apprenticeship during the extraordinary times of 2020 and has provided me with real life experience of remote learning and working simultaneously that will set the foundation for my career in the future."</p>
+          </label>
+          <label class="item" for="t-3">
+            <img src="/assets/images/eval_member.png" alt="picture">
+            <h4>Eval Thomson</h4>
+            <span>Cyber and Infrastructure L7 Apprentice</span>
+            <p>“I have been adapting and providing proper security information and materials for the company. The training that was provided was vital for me to understand the current work environment and carry topics that help me hone my work and my effort within Network and Security.”</p>
+            <h2></h2>
+          </label>
+          <label class="item" for="t-4">
+            <img src="/assets/images/deni_member.png" alt="picture">
+            <h4>Deni Panev</h4>
+            <span>Infrastructure/Cyber Engineer L4 Apprentice</span>
+            <p>"My experience with Vasave was awesome. It started with a traineeship period, through which I learned a lot about cyber security and networking. The training was based on learning courses and online meetings, where specialists shared their knowledge and experiences."</p>
+          </label>
+        </div>
+        <div class="dots">
+          <label for="t-1"></label>
+          <label for="t-2"></label>
+          <label for="t-3"></label>
+          <label for="t-4"></label>
         </div>
       </div>
     </div>
