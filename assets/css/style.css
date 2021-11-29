@@ -1086,29 +1086,45 @@ ul.slick-dots {
 	color: #FFF;
 }
 
-/* Partners Style */
+/* Contact Form - Submission Success */
 
-.contact-partners {
-	margin-top: -8px!important;
+.submission-card {
+	background-image: url(../images/contact_submission-success.jpg);
+	background-size: 100%;
+	padding: 160px 25px 125px 25px;
 }
 
-.partners {
-	margin-top: 140px;
-	background-color: #f7f7f7;
-	padding: 60px 0px;
-}
-
-.partners .owl-item {
+.submission-card .sb-content {
 	text-align: center;
-	cursor: pointer;
+	background: rgba(255, 110, 64, 0.2);
+	backdrop-filter: blur(10px);
+	border-radius: 20px;
+	margin: 0px 10%;
+	padding: 3% 0px;
 }
 
-.partners .partner-item img {
-	max-width: 156px;
-	margin: auto;
+.submission-card .sb-content span {
+	font-family: 'Urbanist', sans-serif;
+	font-size: 15px;
+	color: #FFC13B;
+	text-transform: uppercase;
+	letter-spacing: 1px;
 }
 
+.submission-card .sb-content h1 {
+	margin-top: 10px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	color: #1E3D59;
+}
 
+.submission-card .sb-content p {
+	margin: 25px 20% 0px 20%; 
+}
+
+.space {
+	margin: 25px 5px 0 5px;
+}
 
 /* Footer Style */
 
