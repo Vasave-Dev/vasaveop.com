@@ -1237,9 +1237,109 @@ footer ul.contact-info li {
 }
 
 
-.page-heading {
+.page-heading.about {
 	text-align: center;
-	background-image: url(../images/page-heading-bg.jpg);
+	background-image: url(../images/sub-slider_about.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 150px 0px 120px 0px;
+	color: #fff;
+}
+
+.page-heading.overseas-placements {
+	text-align: center;
+	background-image: url(../images/sub-slider_services_overseas-placement.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 150px 0px 120px 0px;
+	color: #fff;
+}
+
+.page-heading.visa-offers {
+	text-align: center;
+	background-image: url(../images/sub-slider_services_visa-offers.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 150px 0px 120px 0px;
+	color: #fff;
+}
+
+.page-heading.development {
+	text-align: center;
+	background-image: url(../images/sub-slider_training-development.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 150px 0px 120px 0px;
+	color: #fff;
+}
+
+.page-heading.design {
+	text-align: center;
+	background-image: url(../images/sub-slider_training-design.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 150px 0px 120px 0px;
+	color: #fff;
+}
+
+.page-heading.networking {
+	text-align: center;
+	background-image: url(../images/sub-slider_training-networking.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 150px 0px 120px 0px;
+	color: #fff;
+}
+
+.page-heading.special-courses {
+	text-align: center;
+	background-image: url(../images/sub-slider_training-special-courses.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 150px 0px 120px 0px;
+	color: #fff;
+}
+
+.page-heading.blog {
+	text-align: center;
+	background-image: url(../images/sub-slider_services_overseas-placement.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 150px 0px 120px 0px;
+	color: #fff;
+}
+
+.page-heading.article1 {
+	text-align: center;
+	background-image: url(../images/sub-slider_blogs-article1.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 150px 0px 120px 0px;
+	color: #fff;
+}
+
+.page-heading.article2 {
+	text-align: center;
+	background-image: url(../images/sub-slider_blogs-article2.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 150px 0px 120px 0px;
+	color: #fff;
+}
+
+.page-heading.contact {
+	text-align: center;
+	background-image: url(../images/sub-slider_contact.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
